@@ -1,0 +1,165 @@
+body{ 
+
+margin: 0 ;
+padding: 0;
+background: rgb(209, 208, 208);
+font-family: Arial,Helvetica,sans-serif;
+color: #20303c;
+width: 100%;
+height: 100%;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+
+
+}
+main
+{ 
+  margin: 0 auto  ;
+  padding: 100px;
+  width: 80%;
+ 
+}
+img { 
+    width: 320px ;
+    border-radius: 10px;
+    margin: 0 80px;
+}
+
+
+.flex-container > div {
+
+ 
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+} 
+.flex-container {
+    display: flex;
+   
+  }
+  h6{ 
+margin: 0;
+
+  }
+  
+  h1 { 
+    display: inline;
+}
+ p { 
+
+    margin: 0;
+    padding: 0;
+    display:inline;
+}
+
+  
+ul.topnav {
+    
+    margin: 0;
+    padding: 30px;
+
+  }
+  ul{ 
+    list-style-type: none;
+     overflow: hidden;
+  }
+
+  
+  ul li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color:  #000;
+    text-align: center;
+    padding: 0px 10px;
+    text-decoration: none;
+   
+
+  }
+  
+
+  
+  ul.topnav li a.active {background-color: #04AA6D;}
+  
+  ul.topnav li.right {
+      border: 1px solid ridge;
+    float: right;
+    border-left: 2px solid rgb(0, 0, 0);}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+  .contant {
+    display: flex;
+        margin: 20px;
+  }
+  .contant ul {
+
+    padding: 0;
+  }
+
+  .contant ul  li {
+    padding: 15px;
+    margin: 25px;
+    border-radius: 5px;
+
+  } 
+  .contant ul  li a{
+   
+    text-decoration: none;
+    color: #fff;
+
+  }
+ #resume { 
+    background:#eea302
+  }
+
+  #projects { 
+    background:#ff3b25
+  }
+  #contact{ 
+    background:#80d8da
+  }
+  footer { 
+      width: 80%;
+      margin: 0 auto;
+  }
+  footer .flex-container h3 { 
+      margin: 0px;
+  }
+ .flex-container .right  { 
+  float: right;
+  }
+  .follow img { 
+      width: 25px;
+      margin: 0px;
+
+  }
+.follow  ul {
+
+margin-left:50px  ;
+  } 
+  
+  .follow  ul li{
+padding-left: 4px;
+  } 
+  a{ 
+      text-decoration: none;
+      color: #000;
+  }
+  a:hover{
+      
+    color: rgb(43, 43, 43);
+  } 
+
+  .copyright { 
+      background: #000;
+      color: #fff;
+      text-align: center;
+      font-size: 10px;
+  }
